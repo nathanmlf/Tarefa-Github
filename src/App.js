@@ -32,21 +32,24 @@ function App() {
 
 export default App;
 
-// Container código de Erro
 
-{
-  /* <div className="container-erro">
+Container código de Erro
+
+<div className="container-erro">
   <p className="container-erro-texto">
     Nenhum perfil foi encontrado com esse nome de usuário. Tente novamente
   </p>
 </div>;
 
-// Container quando encontra o perfil
+Container quando encontra o perfil
 
 <div className="container-encontrou">
-  
-  <img src="link da foto de perfil">
-  <h2>Nome da pessoa</h2>
-  <p>Bio da pessoa</p>
-</div>; */
+  <div className="container-foto-perfil"> 
+    <img className="foto-perfil" src="link da foto de perfil">
+  </div>
+  <div className="container-bio-perfil">
+    <h2 className="nome-perfil">Nome da pessoa</h2>
+    <p className="bio-perfil">Bio da pessoa</p>
+  </div>:
+</div>; 
 }
